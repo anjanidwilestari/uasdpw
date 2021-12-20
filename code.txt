@@ -1,0 +1,12 @@
+$kategoriSelect=$_POST['kategori'];
+            if($kategoriSelect='pegunungan'){
+                $kategori='Pegunungan';
+            }if($kategoriSelect='wisatakeluarga'){
+                $kategori='Wisata Keluarga';
+            }if($kategoriSelect='wisatapendidikan'){
+                $kategori='Wisata Pendidikan';
+            }if($kategoriSelect='wisataalam'){
+                $kategori='Wisata Alam';
+            }if($kategoriSelect='akomodasi'){
+                $kategori='Akomodasi';
+            }
